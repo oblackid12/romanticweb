@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            text-align: center;
+        }
+        h2 {
+            font-family: 'Dancing Script', cursive;
+            color: #ff6b6b;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.2);
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        a:hover {
+            background-color: #ff8c94;
+        }
+    </style>
+</head>
+<body>
+    <h2>Our Memories</h2>
+    <div class="gallery">
+        <img src="assets/photos/85625a29-decb-453a-bc92-241ae4d0aef1.jpg" alt="Memory 1">
+        <img src="assets/photos/b5995ccf-ff3e-4987-90bc-671f692bfec4.jpg" alt="Memory 2">
+        <img src="assets/photos/cc6aa1db-fa5a-4456-8053-9f64cafbb62f.jpg" alt="Memory 3">
+        <img src="assets/photos/5b226d88-f885-4394-8fb5-f7721cc3ba9c.jpg" alt="Memory 4">
+        <img src="assets/photos/9d732111-d632-4e20-8b7b-11b5e1a4e630.jpg" alt="Memory 5">
+        <img src="assets/photos/563cb6a0-c796-44e4-a705-eaadf241ad87.jpg" alt="Memory 6">
+        <img src="assets/photos/1650a156-086c-4220-be3d-fcacc9cff90d.jpg" alt="Memory 7">
+    </div>
+    <a href="index.html">Kembali</a>
+</body>
+</html>

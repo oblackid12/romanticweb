@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffe5e5;
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6b6b;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #ff9a9a;
+    color: white;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    background: #fff0f0;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
